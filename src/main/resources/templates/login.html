@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>LDAP DEMO</title>
+</head>
+<body>
+<form name="loginForm" th:action="@{/login}" action="/login">
+<label>Username</label>
+<input type="text" name="username" >
+<label>Password</label>
+<input type="password" name="password">
+    <button type="submit">Giriş yap</button>
+</form>
+
+</body>
+</html>
